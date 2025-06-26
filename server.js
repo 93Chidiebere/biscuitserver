@@ -15,7 +15,7 @@ const port = 5000 || 3306;
 
 // Middleware
 app.use(cors({
-    origin: 'https://93chidiebere.github.io/buymebiscuit/index.html',
+    origin: 'https://93chidiebere.github.io',
     credentials: true
 }));
 app.use(express.json());
