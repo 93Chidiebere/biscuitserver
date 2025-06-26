@@ -15,7 +15,7 @@ const port = 5000 || 3306;
 
 // Middleware
 app.use(cors({
-    origin: 'http://127.0.0.1:5500',
+    origin: 'https://93chidiebere.github.io/buymebiscuit/index.html',
     credentials: true
 }));
 app.use(express.json());
